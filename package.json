@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "name": "usos-avancados-ia-javascript",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "exe0": "ts-node-esm ./src/00_basic_use.ts",
+    "exe1": "ts-node-esm ./src/01_tool_calling_extraction.ts",
+    "exe2": "ts-node-esm ./src/02_tool_calling_school.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.5.0",
+    "@azure/openai": "^2.0.0-beta.3",
+    "dotenv": "^16.4.5",
+    "openai": "^4.71.1"
+  }
+}
